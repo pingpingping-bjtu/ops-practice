@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "073e4a2ee1762f8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b62ee83828c5ce46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "420680c8dcaee438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08-daily-record/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7406151479e40ff7",
+    "type": "split",
+    "children": [
+      {
+        "id": "313e46af31c09eb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3d976686332f524",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "378f2f23e91e3614",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "82348d075aa05ee2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1c92850041e6f29",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d847ae0f6d583a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4319c70fefdd0a9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-linux/系统状态查看.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "系统状态查看 的反向链接列表"
+            }
+          },
+          {
+            "id": "de30b27201d51f9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-linux/系统状态查看.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "系统状态查看 的出链列表"
+            }
+          },
+          {
+            "id": "e9b2f6225db39f6b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "de152671b1eadbaf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f65252f5cd4b4d3b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-linux/系统状态查看.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "系统状态查看 的大纲"
+            }
+          },
+          {
+            "id": "c7d2fb03b94ca135",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "420680c8dcaee438",
+  "lastOpenFiles": [
+    "07-mysql-nginx-redis/Redis运维笔记.md",
+    "08-daily-record/未命名.md",
+    "07-mysql-nginx-redis/Nginx运维笔记.md",
+    "07-mysql-nginx-redis/MySQL运维笔记.md",
+    "06-k8s/K8s运维笔记.md",
+    "05-docker/Docker运维笔记.md",
+    "04-go-tools/Goy运维工具学习笔记.md",
+    "03-shell-scripts/health_check.md",
+    "03-shell-scripts/backup_config.md",
+    "03-shell-scripts/check_log.md",
+    "03-shell-scripts/check_system.md",
+    "03-shell-scripts/Shell 脚本学习笔记.md",
+    "02-troubleshooting/K8s-Pod异常排查.md",
+    "02-troubleshooting/Nginx-502排查.md",
+    "02-troubleshooting/端口不通排查.md",
+    "02-troubleshooting/磁盘满排查.md",
+    "02-troubleshooting/内存不足排查.md",
+    "02-troubleshooting/CPU过高排查.md",
+    "02-troubleshooting/故障排查总流程.md",
+    "01-linux/网络排查.md",
+    "01-linux/磁盘管理.md",
+    "01-linux/进程管理.md",
+    "未命名.md",
+    "01-linux/系统状态查看.md",
+    "01-linux/Linux 常用命令.md",
+    "00-dashboard/运维学习总览.md",
+    "08-daily-record",
+    "07-mysql-nginx-redis",
+    "06-k8s",
+    "05-docker",
+    "04-go-tools",
+    "03-shell-scripts",
+    "02-troubleshooting",
+    "01-linux",
+    "00-dashboard"
+  ]
+}
