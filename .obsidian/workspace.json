@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08-daily-record/未命名.md",
+                "file": "00-dashboard/运维学习总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "运维学习总览"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "420680c8dcaee438",
   "lastOpenFiles": [
-    "07-mysql-nginx-redis/Redis运维笔记.md",
     "08-daily-record/未命名.md",
+    "07-mysql-nginx-redis/Redis运维笔记.md",
     "07-mysql-nginx-redis/Nginx运维笔记.md",
     "07-mysql-nginx-redis/MySQL运维笔记.md",
     "06-k8s/K8s运维笔记.md",
