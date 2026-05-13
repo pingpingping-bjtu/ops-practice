@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-dashboard/运维学习总览.md",
+                "file": "04-go-tools/Go运维工具学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "运维学习总览"
+              "title": "Go运维工具学习笔记"
             }
           }
         ]
@@ -194,15 +194,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "420680c8dcaee438",
+  "active": "c7d2fb03b94ca135",
   "lastOpenFiles": [
+    "00-dashboard/运维学习总览.md",
     "08-daily-record/未命名.md",
     "07-mysql-nginx-redis/Redis运维笔记.md",
     "07-mysql-nginx-redis/Nginx运维笔记.md",
     "07-mysql-nginx-redis/MySQL运维笔记.md",
     "06-k8s/K8s运维笔记.md",
     "05-docker/Docker运维笔记.md",
-    "04-go-tools/Goy运维工具学习笔记.md",
+    "04-go-tools/Go运维工具学习笔记.md",
     "03-shell-scripts/health_check.md",
     "03-shell-scripts/backup_config.md",
     "03-shell-scripts/check_log.md",
@@ -221,7 +222,6 @@
     "未命名.md",
     "01-linux/系统状态查看.md",
     "01-linux/Linux 常用命令.md",
-    "00-dashboard/运维学习总览.md",
     "08-daily-record",
     "07-mysql-nginx-redis",
     "06-k8s",
