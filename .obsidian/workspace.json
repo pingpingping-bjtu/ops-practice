@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-linux/find命令的使用.md",
+                "file": "01-linux/grep、awk、sed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "find命令的使用"
+              "title": "grep、awk、sed"
             }
           }
         ]
@@ -197,6 +197,7 @@
   "active": "420680c8dcaee438",
   "lastOpenFiles": [
     "01-linux/Linux 常用命令.md",
+    "01-linux/grep、awk、sed.md",
     "01-linux/find命令的使用.md",
     "01-linux/磁盘管理.md",
     "Linux常用命令.md",
@@ -221,7 +222,6 @@
     "02-troubleshooting/CPU过高排查.md",
     "02-troubleshooting/故障排查总流程.md",
     "01-linux/网络排查.md",
-    "01-linux/进程管理.md",
     "08-daily-record",
     "07-mysql-nginx-redis",
     "06-k8s",

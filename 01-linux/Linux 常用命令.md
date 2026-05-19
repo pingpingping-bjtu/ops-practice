@@ -44,7 +44,7 @@ e
 - `find / locate`：查找文件，如 `find / -name "*.log"`
 
 ```
-    find [查找路径] [匹配条件] [后续动作]
+find [查找路径] [匹配条件] [后续动作]
 
 ```
 #### 文件查看与处理类
@@ -52,7 +52,15 @@ e
 - `cat`：查看小文件
     
 - `more / less`：分页查看文件
-    
+
+|more 命令中的快捷键|less 命令中的快捷键|功  能|
+|---|---|---|
+|无|方向键 ↑|向上滚动一行|
+|Enter|方向键 ↓ 或Enter|向下滚动一行|
+|b|Page UP 或 b|向上翻页|
+|Space|Page Down 或 Space|向下翻页|
+|Ctrl+C 或 q|q|退出分页显示模式|
+
 - `tail / head`：查看文件头部或尾部，`tail -f` 追踪日志
     
 - `grep`：文本搜索，配合日志分析很常用
@@ -208,38 +216,3 @@ find . -type f -group sunk
 
 ps -eo pid,user,%mem,comm --sort=-%mem | head -n 10
 
-## grep/awk/sed：
-
-1.简单介绍
-
-三者都是Linux中的核心文本处理工具  
-grep：文本搜索工具  
-常用场景：  
-过滤日志  
-查找特定内容  
-检查文件是否包含关键词  
-sed：流式文本编辑（查找/替换/删除/插入）  
-常用场景：  
-批量替换文本  
-删除特定行  
-文本转换  
-sed -r '/^$|^#/d' config.conf  # 删除空行和注释行[3,5](@ref)  
-sed -n '10,20p' data.log  # 仅输出第10到20行[3](@ref)  
-awk：基于列的文本处理  
-常用场景：  
-提取特定列  
-数据统计与计算  
-格式化报表
-
-2.一个日志文件中有三列数据，来源IP，请求URL，请求状态码，统计请求码为404的IP来源、汇总每个IP出现次数
-
-awk '$3 == 404 {print $1}' logfile.txt | sort | uniq -c | sort -nr  
-#解释  
-#awk '$3 == 404 {print $1}': 只处理第3列为404的行，打印第1列（IP）  
-#sort: 排序，为后续 uniq -c 做准备  
-#uniq -c: 统计每个 IP 出现次数  
-#sort -nr: 按次数降序排序
-
-3.一个文件三列，取出第二列包含xx的数据，并对第一列进行去重和排序
-
-awk '$2 ~ /xx/ {print $1}' file.txt | sort | uniq -c | sort -nr
